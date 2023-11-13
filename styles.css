@@ -1,0 +1,13 @@
+.toode {
+    max-width: 300px;
+    font-family: arial;
+    padding-top: 20px;
+}
+
+.toode img {
+    width: 100%;
+}
+
+.toode img:hover {
+    width: 150%;
+}
