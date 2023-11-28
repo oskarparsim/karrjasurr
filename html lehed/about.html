@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kärr ja Sürr | Meie Kohta</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <div class="header">
-        <h1>Kärr ja Sürr</h1>
-    </div>
-    <div class="nupud">
-        <button onclick="document.location='index.html'">Kodu</button>
-        <button onclick="document.location='kataloog.html'">Kataloog</button>
-        <button onclick="document.location='about.html'">Meist</button>
+        <img src="../images/logo.png" alt="Logo image" id="logo">
+        <div id="nupud">
+            <button onclick="document.location='index.html'" class="nupp">Kodu</button>
+            <button onclick="document.location='kataloog.html'" class="nupp">Kataloog</button>
+            <button onclick="document.location='about.html'" class="nupp">Meist</button>
+        </div>
     </div>
     <div class="body">
-        <h1>Meie Kohta</h1>
-        <img src="" alt="Triinu">
-        <img src="" alt="Maarja">
-        <p>blablablablablablablabllbalblalba</p>
+        <h2>Meie Kohta</h2>
+
+        <div class="omanikud">
+            <div class="triinu">
+                <img src="../images/woman.jpg" alt="Triinu" id="">
+                <p>Tere, minu nimi on Triinu!</p>
+            </div>
+
+            <div class="maarja">
+                <img src="../images/jo_cameron.jpg" alt="Maarja">
+                <p>Tere, minu nimi on Maarja!</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,20 +1,21 @@
-    <!DOCTYPE html>
-    <html lang="et">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kärr ja Sürr | Koduleht</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kärr ja Sürr | Koduleht</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
 
-        <div class="header">
-            <h1>Kärr ja Surr</h1>
+    <div class="header">
+        <img src="../images/logo.png" alt="Logo image" id="logo">
+        <div id="nupud">
+            <button onclick="document.location='index.html'" class="nupp">Kodu</button>
+            <button onclick="document.location='kataloog.html'" class="nupp">Kataloog</button>
+            <button onclick="document.location='about.html'" class="nupp">Meist</button>
         </div>
-        <div class="nupud">
-            <button onclick="document.location='index.html'">Kodu</button>
-            <button onclick="document.location='kataloog.html'">Kataloog</button>
-            <button onclick="document.location='about.html'">Meist</button>
-        </div>
+    </div>
         <nav>
             <a href="#section1">Sektsioon 1</a> |
             <a href="#section2">Sektsioon 2</a>
@@ -31,9 +32,11 @@
             <p>Sisu</p>
         </section>
 
-        <footer>
-            <p>&copy; Kärr ja Surr</p>
-        </footer>
+    <section id="section1">
+        <h2>Pealkiri</h2>
+        <p>Sisu.</p>
+        <img src="../images/pilt.jpg" alt="Kärr ja Surr">
+    </section>
 
     </body>
     </html>

@@ -1,13 +1,124 @@
-.toode {
-    max-width: 300px;
-    font-family: arial;
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 126, 74);
+    height: 100%;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color:#eee;
+    
+}
+
+.omanikud {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+#aasta {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.tooted {
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.toode img {
-    width: 100%;
+.toode {
+    border: 3px solid rgb(54, 92, 4);
+    border-radius: 20px;
 }
 
-.toode img:hover {
-    width: 150%;
+.nimetus {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    color: #eee;
+}
+
+.hind {
+    padding: 10px;
+    margin: 0;
+    color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    background-color: rgb(54, 92, 4);
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(rgb(54, 92, 4), rgb(59, 126, 74))
+}
+
+#nupud {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.nupp {
+    background-color: rgb(24, 99, 9);
+    text-transform: uppercase;
+    color: #eee;
+    border-style:solid;
+    display: flex;
+    border-radius: 10px;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.omanikud{
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
 }
