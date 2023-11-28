@@ -1,13 +1,92 @@
-.toode {
-    max-width: 300px;
-    font-family: arial;
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 60, 209);
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color:#eee;
+}
+
+.omanikud {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tooted {
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
-.toode img {
-    width: 100%;
+.nimetus {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    color: #eee;
 }
 
-.toode img:hover {
-    width: 150%;
+.hind {
+    padding: 10px;
+    margin: 0;
+    color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    background-color: rgb(20, 23, 209);
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+#nupud {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.nupp {
+    background-color: aqua;
+    text-transform: uppercase;
+}
+
+.omanikud{
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
 }
