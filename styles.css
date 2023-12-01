@@ -123,3 +123,33 @@ p {
     text-align: center;
     font-size: 22px;
 }
+section h2 {
+    font-size: 1.2em; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section p {
+    max-width: 600px; /* Muutke vastavalt soovile */
+    margin: 0 auto;
+}
+
+section img {
+    max-width: 100%;
+    margin-top: 20px; /* Reguleerige vastavalt soovile */
+}
+
+section h2::before {
+    content: "Uudised";
+    font-size: 1.5em; 
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
