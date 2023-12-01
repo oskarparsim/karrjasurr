@@ -1,0 +1,13 @@
+{
+    "tooted":[
+        {
+            "nimi":"kootud sall",
+            "hind":15.0,
+            "pildiNimi":"scarf_PNG19.png"
+        },
+        {
+            "nimi":"placeholder",
+            "hind":16.8,
+            "pildiNimi":"logo.png"
+        }
+]}
