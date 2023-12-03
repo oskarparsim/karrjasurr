@@ -158,11 +158,18 @@ section h2::before {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about_pealkiri {
+    color:rgb(26, 44, 2);
 }
 
 #triinjamaarja {
     width: 500px;
     height: auto;
+    margin-top: 50px;
 }
 
 .footer {
