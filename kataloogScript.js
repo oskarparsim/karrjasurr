@@ -4,7 +4,7 @@ function lisaToode(toode) {
     var toodeteList = document.getElementsByClassName("tooted")[0];
 
     var pilt = document.createElement("IMG");
-    pilt.src = "./images/" + toode.pildiNimi;
+    pilt.src = "./images/tooted/" + toode.pildiNimi;
     pilt.alt = toode.nimi;
 
     var tekst1 = document.createElement("p");

@@ -3,11 +3,21 @@
         {
             "nimi":"kootud sall",
             "hind":15.0,
-            "pildiNimi":"scarf_PNG19.png"
+            "pildiNimi":"kootudsall.png"
         },
         {
-            "nimi":"placeholder",
-            "hind":16.8,
-            "pildiNimi":"logo.png"
+            "nimi":"lipukett 4m 15 lippu",
+            "hind":20,
+            "pildiNimi":"lipukett15.png"
+        },
+        {
+            "nimi":"lipukett 5m 18 lippu",
+            "hind":25,
+            "pildiNimi":"lipukett18.jpg"
+        },
+        {
+            "nimi":"lipukett 6m 21 lippu",
+            "hind":30,
+            "pildiNimi":"lipukett21.png"
         }
 ]}
