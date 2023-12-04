@@ -178,3 +178,20 @@ section h2::before {
     color: black;
     background-image:linear-gradient(rgb(59, 126, 74),rgb(54, 92, 4))
 }
+
+.sektsioonid {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 5px;
+}
+
+.sektsioon {
+    text-decoration: none;
+    padding: 3px;
+    border: 2px solid rgb(24, 99, 9);
+    margin-right: auto;
+    border-radius: 10px;
+    color:#eee;
+    background-color: rgb(100, 156, 91);
+}
