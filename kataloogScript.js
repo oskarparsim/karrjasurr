@@ -1,3 +1,5 @@
+//Koodi kirjutas Johannes Tammerand
+
 // Impordib JSON-faili, mis hoiab infot toodete kohta
 import json from './tooted.json' assert {type: 'json'};
 
