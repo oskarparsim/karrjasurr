@@ -1,11 +1,6 @@
 {
     "tooted":[
         {
-            "nimi":"kootud sall",
-            "hind":15.0,
-            "pildiNimi":"kootudsall.png"
-        },
-        {
             "nimi":"lipukett 4m 15 lippu",
             "hind":20,
             "pildiNimi":"lipukett15.png"
