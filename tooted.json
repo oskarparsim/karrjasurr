@@ -1,18 +1,43 @@
 {
     "tooted":[
         {
-            "nimi":"lipukett 4m 15 lippu",
+            "nimi":"Lipukett 4m 15 lippu",
             "hind":20,
-            "pildiNimi":"lipukett15.png"
+            "pildiNimi":"lipukett1.png"
         },
         {
-            "nimi":"lipukett 5m 18 lippu",
+            "nimi":"Lipukett 5m 18 lippu",
             "hind":25,
-            "pildiNimi":"lipukett18.jpg"
+            "pildiNimi":"lipukett2.jpg"
         },
         {
-            "nimi":"lipukett 6m 21 lippu",
+            "nimi":"Lipukett 6m 21 lippu",
             "hind":30,
-            "pildiNimi":"lipukett21.png"
+            "pildiNimi":"lipukett3.png"
+        },
+        {
+            "nimi":"Lipukett 4m 14 lippu",
+            "hind":20,
+            "pildiNimi":"lipukett4.png"
+        },
+        {
+            "nimi":"Lipukett 4m 14 lippu",
+            "hind":20,
+            "pildiNimi":"lipukett5.png"
+        },
+        {
+            "nimi":"Lipukett 4m 14 lippu",
+            "hind":20,
+            "pildiNimi":"lipukett6.png"
+        },
+        {
+            "nimi":"Lipukett 5m 18 lippu",
+            "hind":25,
+            "pildiNimi":"lipukett7.png"
+        },
+        {
+            "nimi":"Lipukett 4m 14 lippu",
+            "hind":20,
+            "pildiNimi":"lipukett8.png"
         }
 ]}
