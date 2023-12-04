@@ -9,6 +9,7 @@ function lisaToode(toode) {
     var pilt = document.createElement("IMG");
     pilt.src = "./images/tooted/" + toode.pildiNimi;
     pilt.alt = toode.nimi;
+    pilt.style = "border-radius:17px";
 
     // Loeb JSON-failist toote nime ja loob sellest HTML elemendi
     var tekst1 = document.createElement("p");
